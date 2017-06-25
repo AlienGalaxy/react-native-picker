@@ -84,12 +84,6 @@ RCT_EXPORT_METHOD(_init:(NSDictionary *)indic){
         
         [self.window addSubview:_pick];
         
-        [UIView animateWithDuration:.3 animations:^{
-            
-            [_pick setFrame:CGRectMake(0, SCREEN_HEIGHT-self.height, SCREEN_WIDTH, self.height)];
-            
-        }];
-        
     });
     
 }
