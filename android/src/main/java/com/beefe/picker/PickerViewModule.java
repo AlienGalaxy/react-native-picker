@@ -494,6 +494,6 @@ public class PickerViewModule extends ReactContextBaseJavaModule implements Life
 
     @Override
     public void onHostDestroy() {
-		dialog.dismiss();
+		
     }
 }
